@@ -3,11 +3,11 @@ import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 import './App.css';
 
 function App() {
-  var latlngs: [number, number] = [51.505, -0.09]
+  var latlngs: [number, number] = [38.627, -90.33]
   
   const[viewport, setViewport] = useState({
     center: latlngs,
-    zoom: 13,
+    zoom: 12,
     scrollWheelZoom: true,
     width: "100vw",
     height: "100vh",
@@ -20,7 +20,7 @@ function App() {
           attribution='&copy; <a href="https://www.openstreetmap.org /copyright">OpenStreetMap</a> contributors' 
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" 
         />
-        <Marker position={[51.505, -0.09]}>
+        <Marker position={latlngs}>
           <Popup>
             A pretty CSS3 popup. <br /> Easily customizable
           </Popup>
