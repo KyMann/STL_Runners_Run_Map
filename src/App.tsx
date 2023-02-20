@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import runData from "./data/data.json";
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     width: "100vw",
     height: "100vh",
   })
-  
+
   return (
     <div className="App">
       <MapContainer {...viewport}>
@@ -20,11 +21,7 @@ function App() {
           attribution='&copy; <a href="https://www.openstreetmap.org /copyright">OpenStreetMap</a> contributors' 
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" 
         />
-        <Marker position={latlngs}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable
-          </Popup>
-        </Marker>
+        {runData.map((run) => <Marker key={run.Name} position={[run.Coordinates[0], run.Coordinates[1]]}><Popup>{run.Name}</Popup></Marker>)}
       </MapContainer>
 
     

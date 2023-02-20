@@ -1,0 +1,176 @@
+[
+        {
+            "Name": "CastleWood Run Club",
+            "Day": "Saturday",
+            "Time": "8AM",
+            "Coordinates": [
+                38.550172,
+                -90.539359
+            ],
+            "STLRunLead": true,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Taco Tuesday Social Run",
+            "Day": "Tuesday",
+            "Time": "6:30PM",
+            "Coordinates": [
+               38.643469,-90.282553
+            ],
+            "STLRunLead": true,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "BWC RUN",
+            "Day": "Wednesday",
+            "Time": "6PM",
+            "Coordinates": [
+                38.626255,-90.347436
+            ],
+            "STLRunLead": true,
+            "Description": "Traveling Run",
+            "Website": ""
+        },
+        {
+            "Name": "3Run4",
+            "Day": "Sunday",
+            "Time": "11AM",
+            "Coordinates": [
+                38.614852,-90.198063
+            ],
+            "STLRunLead": true,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Big River Social Run U City",
+            "Day": "Monday",
+            "Time": "8AM",
+            "Coordinates": [
+                38.659423,-90.337391
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Big River Social Run South City",
+            "Day": "Monday",
+            "Time": "8AM",
+            "Coordinates": [
+                38.587775,-90.284008
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Happy's Running Club",
+            "Day": "Tuesday",
+            "Time": "6PM",
+            "Coordinates": [
+                38.602547,-90.261671
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Dogtown Run Club",
+            "Day": "Saturday",
+            "Time": "6:30PM",
+            "Coordinates": [
+                38.631442,-90.292580
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Big River Training Team",
+            "Day": "Thursday",
+            "Time": "6PM",
+            "Coordinates": [
+                38.657187,-90.352263
+            ],
+            "STLRunLead": false,
+            "Description": "Traveling Run",
+            "Website": ""
+        },
+        {
+            "Name": "Lewis and Clark Trail Run",
+            "Day": "Friday",
+            "Time": "6PM",
+            "Coordinates": [
+                38.690979,-90.724532
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "Terrain Trail Runners",
+            "Day": "Sunday",
+            "Time": "8AM",
+            "Coordinates": [
+                38.529852,-90.683910
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },
+        {
+            "Name": "STL Trail Runners",
+            "Day": "Sunday",
+            "Time": "8AM",
+            "Coordinates": [
+                38.536982,-90.537920
+            ],
+            "STLRunLead": false,
+            "Description": "Traveling Run",
+            "Website": ""
+        },
+        {
+            "Name": "Bangert Island Run",
+            "Day": "Thursday",
+            "Time": "6PM",
+            "Coordinates": [
+                38.7622359,-90.493391
+            ],
+            "STLRunLead": false,
+            "Description": "They wait in one of the stores when it's cold but I don't know which one",
+            "Website": ""
+        },{
+            "Name": "Forest Park Trail Run",
+            "Day": "Wednesday",
+            "Time": "5:30PM",
+            "Coordinates": [
+                38.643909,-90.283467
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },{
+            "Name": "Big River Training Team Long Run",
+            "Day": "Sunday",
+            "Time": "8AM",
+            "Coordinates": [
+                38.551275,-90.638950
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        },{
+            "Name": "Bootlegger Trail Run",
+            "Day": "Tuesday",
+            "Time": "5:30PM",
+            "Coordinates": [
+                38.717378,-90.470917
+            ],
+            "STLRunLead": false,
+            "Description": "",
+            "Website": ""
+        }
+    ]
