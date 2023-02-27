@@ -1,5 +1,6 @@
 import React, {useState} from "react"
-import MarkerMapComponent from "./components/RunMarkers"
+import MarkerMapComponent from "./components/MapAndMarkers"
+import FilterBar from "./components/FilterBar";
 import runData from "./data/data.json";
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      <FilterBar />
       <MarkerMapComponent />
   
     </div>
